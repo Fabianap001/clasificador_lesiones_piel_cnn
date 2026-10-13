@@ -57,9 +57,9 @@ verificar_imagenes.py  →  resize_images.py  →  train_model.py  →  test_mod
 
 ## Dataset
 
-Las imágenes están en un repositorio aparte: [Skin_Lesion_Dataset](https://github.com/Fabianap001/Skin_Lesion_Dataset).
+El repositorio incluye las imágenes ya preprocesadas (224 × 224 px) en `data/data_resized/`, listas para entrenar.
 
-Para usarlo, descárgalo y coloca las carpetas de cada clase dentro de `data/original/`.
+Si quieres partir de imágenes originales, colócalas en `data/original/` (una carpeta por clase) y ejecuta los pasos 1 y 2.
 
 ## Cómo ejecutarlo
 

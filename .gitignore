@@ -1,8 +1,6 @@
-# Datos (el dataset está en su propio repositorio)
-data/
-data_temp/
-data_resized/
-*.zip
+# Datos solo se sube el dataset preprocesado por el peso
+data/*
+!data/data_resized/
 
 # Modelos entrenados (pesados)
 models/
