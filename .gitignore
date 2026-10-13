@@ -1,0 +1,24 @@
+# Datos (el dataset está en su propio repositorio)
+data/
+data_temp/
+data_resized/
+*.zip
+
+# Modelos entrenados (pesados)
+models/
+*.h5
+*.keras
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Notebooks y sistema
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
